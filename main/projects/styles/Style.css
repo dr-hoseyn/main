@@ -1,0 +1,77 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+    background-color: rgb(15, 23, 42);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #1E293B;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+}
+
+    .form-container h2 {
+        font-size: 24px;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .form-container .input-field {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 12px;
+        font-size: 16px;
+        color: #333;
+        text-align: center;
+    }
+
+    .form-container .button-group {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+        .form-container .button-group .calc-button {
+            width: 48%;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+            .form-container .button-group .calc-button:hover {
+                background-color: #0056b3;
+            }
+
+    .form-container .result-label {
+        display: block;
+        margin-top: 20px;
+        font-size: 18px;
+        color: white;
+        min-height: 24px;
+    }
